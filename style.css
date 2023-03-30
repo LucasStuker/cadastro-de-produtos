@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #303030;
+    color: white;
+    text-align: center;
+    height: 100px;
+    display: grid;
+    padding: 10px;
+}
+main{
+    padding: 15px 50px;
+}
+
+.card{
+    background-color:aliceblue;
+    border: 1pc solid #ccc;
+    padding 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+
+}
+
+.inputpd {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+.card input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.card button {
+    background-color: #303030;
+    border: 0;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+
+}
+.content{
+    margin-top: 15px;
+   
+}
+.content table{
+    border-collapse: collapse;
+    padding: 1px;
+    border: #ccc;
+    width: 100%;
+}
+
+.content table th{
+    background-color: #303030;
+    padding: 1px;
+    color: aliceblue;
+}
+
+.content table td{
+    padding: 1px;
+}
